@@ -12,6 +12,7 @@ import random
 import time
 import sys
 
+#????
 # 伪造header
 headers = [
     {
@@ -165,6 +166,8 @@ def init_db(db_path):
     cur.execute(sql)
     conn.commit()
     conn.close()
+
+
 
 
 def getMusicNews():
